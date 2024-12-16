@@ -1,0 +1,116 @@
+.podcast-section {
+    background-color: black;
+    box-sizing: border-box;
+    height: 100vh;
+    background-image: linear-gradient(rgba(36, 39, 31, 0.404), rgba(40, 46, 36, 0.452)), url("/resources/3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+.podcast-div {
+    max-width: 600px;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+    left: 10%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .about-podcast-text {
+    font-weight: 200;
+    color: #fff;
+    text-align: center;
+  }
+
+  .about-podcast {
+    padding-bottom: 10px;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  .podcast-text { 
+    font-weight: 200;
+    color: #fff;
+    text-align: center;
+  }
+
+  .podcast-info {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .podcast-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .podcast-text-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .podcast {
+    width: 110px;
+    height: 110px;
+  }
+
+  .spotify {
+    width: 60px;
+    height: 60px;
+  }
+
+  .podcast,
+  .spotify {
+    margin: 30px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: all .4s;
+  }
+  
+  .podcast:hover,
+  .spotify:hover {
+    transition: all .4s;
+    transform: scale(1.1);
+  }
+
+  @media (max-width: 730px){
+    .podcast-div {
+      max-width: 300px;
+      margin: auto;
+      padding: 10%;
+      padding-top: 20%;
+      left: 0;
+    }
+    .podcast,
+    .spotify {
+      margin-top: 10px;
+    }
+    .spotify {
+      padding-left: 20%;
+    }
+  }
+
+  @media only screen and (min-width: 2200px){
+    .podcast-div {
+      left: 15%;
+    }  
+    .podcast-info {
+      font-size: 24px;
+    }
+    .podcast {
+      width: 170px;
+      height: 170px;
+    }
+    .spotify {
+      width: 90px;
+      height: 90px;
+      padding-left: 25%;
+    }
+    .about-podcast {
+      font-size: 30px;
+    }
+  }

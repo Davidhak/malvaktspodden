@@ -1,0 +1,135 @@
+.contact-section {
+  background-color: black;
+  box-sizing: border-box;
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(rgba(59, 68, 53, 0.712), rgba(78, 92, 69, 0.521)), url("/resources/2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.contact-container {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 0; 
+  right: 0; 
+  margin-inline: auto; 
+  max-width: 100%;
+  margin: 20px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.email-img {
+  color: #fff;
+  height: 50px;
+  padding-bottom: 10px;
+}
+
+.email-icon, .email-text {
+  cursor: pointer;
+}
+
+.email-text-container {
+  margin: 0;
+  padding: 0;
+}
+
+.email-text {
+  display: inline-block;
+  color: #fff;
+  font-size: 30px;
+}
+
+.contact-text {
+  color: #fff;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+.facebook,
+.instagram,
+.tiktok {
+  width: 60px;
+  height: 60px;
+  margin: 30px;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: all .4s;
+}
+
+.facebook:hover,
+.instagram:hover,
+.tiktok:hover {
+  transition: all .4s;
+  transform: scale(1.1);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0; 
+  right: 0; 
+  margin-inline: auto; 
+  width: fit-content;
+}
+
+.creator {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+@media (max-width: 600px) {
+  .email-img {
+    height: 40px;
+  }
+  .email-text {
+    font-size: 22px;
+  }
+  .contact-text {
+    font-size: 18px;
+  }
+  .facebook,
+  .instagram,
+  .tiktok {
+    width: 40px;
+    height: 40px;
+    margin: 30px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: all .4s;
+  }
+}
+
+@media only screen and (min-width: 2200px){
+  .email-img {
+    height: 70px;
+    padding-bottom: 5px;
+  }
+  .email-text {
+    font-size: 36px;
+  }
+  .contact-text {
+    font-size: 28px;
+  }
+  .facebook,
+  .instagram,
+  .tiktok {
+    width: 70px;
+    height: 70px;
+  }
+  .creator {
+    font-size: 16px;  
+  }
+}

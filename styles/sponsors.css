@@ -1,0 +1,56 @@
+.sponsor-section {
+    background-color: black;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.696), rgba(0, 0, 0, 0.608)), url("/resources/1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    display: flex;
+  }
+  
+  .sponsor-container {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width:680px;
+    height: 30%;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 20px;
+  }
+
+  .sponsor-text {
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    max-width: 90%;
+    font-size: 25px;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+
+  @media (max-width: 992px) {
+    .sponsor-container {
+      max-width: 80%;
+      margin: 0;
+    }
+    .sponsor-text {
+      font-size: 20px;
+      padding-top: 20px;
+    }
+  }
+
+  @media only screen and (min-width: 2200px){
+    .sponsor-container {
+     padding: 40px;
+    }
+    .sponsor-text {
+      font-size: 30px;
+    }
+  }

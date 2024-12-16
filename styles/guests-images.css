@@ -1,0 +1,24 @@
+#ep1 {
+  background-image: url('/resources/guests/janne_moller.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#ep2 {
+  background-image: url('/resources/guests/svante_hildeman.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#ep3 {
+  background-image: url('/resources/guests/lamin_sarr.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#ep4 {
+  background-image: url('/resources/guests/peter_martinsson.png');
+  background-size: cover;
+  background-position: center;
+}
+
