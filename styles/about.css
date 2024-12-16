@@ -15,7 +15,7 @@
 
 
 .about-image {
-  background-image: url("/resources/me.jpg");
+  background-image: url("resources/me.jpg");
   background-size: cover;
   max-width: 450px;
   height: 450px;

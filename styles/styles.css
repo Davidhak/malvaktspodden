@@ -27,7 +27,7 @@ section {
   box-sizing: border-box;
   height: 100vh;
   max-width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.696), rgba(0, 0, 0, 0.608)), url("/resources/1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.696), rgba(0, 0, 0, 0.608)), url("resources/1.jpg");
   background-attachment: fixed;
   background-size:cover;
 }
