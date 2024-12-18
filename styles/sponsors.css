@@ -16,7 +16,7 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     max-width:680px;
-    height: 30%;
+    height: fit-content;
     padding: 20px;
     padding-bottom: 40px;
     text-align: center;
@@ -30,9 +30,14 @@
     font-weight: 500;
     max-width: 90%;
     font-size: 25px;
+    padding-bottom: 20px;
     margin: auto;
-    padding-top: 70px;
-    padding-bottom: 40px;
+  }
+
+  @media (max-width: 600px) {
+    .sponsor-section {
+      height: 58em;
+    }
   }
 
   @media (max-width: 992px) {
