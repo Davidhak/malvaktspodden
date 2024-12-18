@@ -34,7 +34,7 @@
 
   @media screen and (max-width: 992px) and (orientation: portrait) {
     .sponsor-section {
-      height: 50em;
+      height: 40em;
       padding: 20px;
     }
     .sponsor-container {
