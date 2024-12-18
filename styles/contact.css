@@ -90,7 +90,7 @@
   font-weight: 100;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .email-img {
     height: 40px;
   }
@@ -112,7 +112,13 @@
   }
 }
 
-@media only screen and (min-width: 2200px){
+@media screen and (max-width: 992px) {
+  .contact-section {
+    background-attachment: scroll;
+  }
+}
+
+@media screen and (min-width: 2200px){
   .email-img {
     height: 70px;
     padding-bottom: 5px;
