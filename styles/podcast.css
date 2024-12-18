@@ -2,7 +2,7 @@
     background-color: black;
     box-sizing: border-box;
     height: 100vh;
-    background-image: linear-gradient(rgba(36, 39, 31, 0.404), rgba(40, 46, 36, 0.452)), url("resources/3.jpg");
+    background-image: linear-gradient(rgba(36, 39, 31, 0.404), rgba(40, 46, 36, 0.452)), url("resources/bg/bg-podcast.png");
     background-attachment: fixed;
     background-size: cover;
   }
