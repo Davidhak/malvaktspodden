@@ -176,6 +176,14 @@ a {
   font-size: 1.6em;
 }
 
+.hero-img {
+  display: none;
+  width: 280px;
+  border-radius: 10px;
+  margin: 30px;
+  filter: drop-shadow(0 0 0.6rem rgb(0, 0, 0));
+}
+
 .info-h1 {
   font-weight: 500;
 }
@@ -278,28 +286,26 @@ a {
   .bg-div {
     height: 50em;
   }
-
   .hero-content {
-    bottom: 36%;
+    bottom: 30%;
   }
-
   .title {
     font-size: 18px;
   }
-
   .main-nav {
     padding: 0;
   }
-
   .info-h3 {
     font-size: 18px;
     padding: 20px;
   }
-
   .creator {
     font-size: 8px;
   }
-
+  .hero-img {
+    width: 200px;
+    margin: 10px;
+  }
 }
 
 @media only screen and (max-device-width: 990px) and (orientation: landscape) {
@@ -318,9 +324,12 @@ a {
   }
 }
 
-@media screen and (min-width: 641px) and (orientation: portrait){
+@media screen and (min-width: 641px) and (max-width: 992px) {
   .hero-content {
-    padding-top: 360px;
+    padding-top: 180px;
+  }
+  .hero-img {
+    width: 300px;
   }
 }
 
@@ -338,13 +347,14 @@ a {
   .right-nav {
    display: none;
   }
-
   .menu-icons {
     display: block;
   }
-
   .title {
     padding-left: 15%;
+  }
+  .hero-img {
+    display: inline;
   }
 }
 
@@ -352,15 +362,12 @@ a {
   .title {
     font-size: 20px;
   }
-
   .right-nav a {
     font-size: 18px;
   }
-
   .right-nav {
     padding-left: 30px;
   }
-
   .left-nav {
     padding-right: 30px;
   }
@@ -371,11 +378,9 @@ a {
     padding-left: .5rem;
     padding-right: .5rem;
   }
-
   .right-nav {
     padding-left: 50px;
   }
-
   .left-nav {
     padding-right: 50px;
   }

@@ -1,7 +1,7 @@
 .guests-section {
   background-color: black;
   box-sizing: border-box;
-  min-height: 150vh;
+  min-height: 100vh;
   background-image: linear-gradient(rgba(22, 24, 21, 0.952), rgba(37, 41, 34, 0.966)), url("https://davidhak.github.io/malvaktspodden/resources/bg/bg-guests.png");
   background-attachment: fixed;
   background-size: cover;
@@ -10,7 +10,7 @@
 
 .work-container {
   margin: auto;
-  max-width: 60%;
+  max-width: 70%;
 }
 
 .row {
@@ -23,32 +23,27 @@
 }
 
 .outer-card {
-  width: 300px;
+  width: 280px;
   height: auto;
   margin: 20px;
   background-color: white;
   border-radius: 20px;
   cursor: pointer;
+  transition: all .3s;
 }
 
 .card {
-  max-width: 300px;
-  height: 300px;
+  max-width: 280px;
+  height: 220px;
   background-color: #fff;
   border: none;
   margin: auto;
   margin-bottom: 5px;
-  transition: .3s;
-  filter: grayscale(100%);
   border-radius: 20px 20px 0 0;
 }
 
-.outer-card:hover .card{
-  filter: grayscale(0%);
-}
-
-.card:hover {
-  opacity: 1;
+.outer-card:hover {
+  transform: scale(1.05);
 }
 
 .card-episode, .card-name, .card-text {
@@ -58,6 +53,7 @@
   padding: 5px;
   padding-left: 20px;
   padding-right: 20px;
+  font-size: 17px;
 }
 
 .card-episode {
@@ -72,7 +68,7 @@
 
 .card-text {
   padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 @media screen and (max-width: 992px) {
@@ -85,14 +81,9 @@
   }
   .outer-card {
     width: 250px;
-    height: auto;
     margin: 10px;
-    background-color: white;
-    border-radius: 20px;
-    cursor: pointer;
   }
   .card {
-    filter: grayscale(0);
     max-width: 320px;
     height: 200px;
   }
@@ -120,7 +111,7 @@
   }
 }
 
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 1388px) {
   .row {
     justify-content: center;
   }
@@ -132,5 +123,12 @@
   }
   .card-text {
     padding-bottom: 10px;
+  }
+  .outer-card {
+    width: 340px;
+  }
+  .card {
+    max-width: 340px;
+    height: 260px;
   }
 }
