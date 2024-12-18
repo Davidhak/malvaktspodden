@@ -2,7 +2,7 @@
   background-color: black;
   box-sizing: border-box;
   min-height: 150vh;
-  background-image: linear-gradient(rgba(22, 24, 21, 0.952), rgba(37, 41, 34, 0.966)), url("resources/bg/bg-guests.png");
+  background-image: linear-gradient(rgba(22, 24, 21, 0.952), rgba(37, 41, 34, 0.966)), url("https://davidhak.github.io/malvaktspodden/resources/bg/bg-guests.png");
   background-attachment: fixed;
   background-size: cover;
   padding-bottom: 50px;
