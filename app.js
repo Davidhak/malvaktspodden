@@ -1,3 +1,5 @@
+window.history.replaceState('','','/');
+
 const burgerMenu = document.querySelector('.hamburger-nav');
 
 function showBurgerMenu() {
