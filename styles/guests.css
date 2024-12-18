@@ -75,20 +75,14 @@
   padding-bottom: 20px;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
   .guests-section {
     background-position: 50%;
     background-attachment: scroll;
   }
-
   .work-container {
     max-width: 90%;
   }
-
-  .row {
-    padding-top: 20%;
-  }
-
   .outer-card {
     width: 250px;
     height: auto;
@@ -97,12 +91,11 @@
     border-radius: 20px;
     cursor: pointer;
   }
-
   .card {
+    filter: grayscale(0);
     max-width: 320px;
     height: 200px;
   }
-
   .card-episode, .card-name, .card-text {
     font-size: 14px;
     margin: 2px;
@@ -110,9 +103,20 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-
   .card-text {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 992px) and (orientation: portrait) {
+  .row {
+    padding-top: 20%;
+  }
+}
+
+@media screen and (max-device-width: 992px) and (orientation: landscape) {
+  .row {
+    padding-top: 10%;
   }
 }
 

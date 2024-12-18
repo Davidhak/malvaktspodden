@@ -274,10 +274,9 @@ a {
   transform: translateY(.125rem);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) and (orientation: portrait) {
   .bg-div {
     height: 50em;
-    background-size:cover;
   }
 
   .hero-content {
@@ -303,7 +302,23 @@ a {
 
 }
 
-@media screen and (min-width: 601px){
+@media only screen and (max-device-width: 990px) and (orientation: landscape) {
+  .bg-div {
+    height: 28em;
+  }
+  .hero-content {
+    max-width: 600px;
+    padding-top: 150px;
+  }
+  .hamburger-nav ul {
+    padding-top: 10%;
+  }
+  .hamburger-nav li {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (min-width: 641px) and (orientation: portrait){
   .hero-content {
     padding-top: 360px;
   }
@@ -330,10 +345,6 @@ a {
 
   .title {
     padding-left: 15%;
-  }
-
-  .hero-content {
-    padding-top: 360px;
   }
 }
 

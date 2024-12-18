@@ -45,7 +45,7 @@
   font-size: 18px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (orientation: portrait) {
   .about-section {
     height: 50em;
   }
@@ -54,14 +54,43 @@
     padding: 0;
   }
   .about-div {
-    padding-top: 40px;
+    padding-top: 0;
   }
   .about-image {
     padding: 0;
   }
 }
 
-@media screen and (max-width: 992px){
+@media only screen and (max-device-width: 990px) and (orientation: landscape) {
+  .about-section {
+    height: 28em;
+  }
+  .about-div {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    justify-content: center;
+    padding-top: 0;
+  }
+  .about-image {
+    max-width: 300px;
+    height: 300px;
+    margin: auto;
+  }
+  .about-me {
+    font-size: 22px;
+  }
+  .about-text {
+    max-width: 380px;
+    padding: 110px 40px 0 20px;
+  }
+  .about-info {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 992px) and (orientation: portrait) {
   .about-div {
     display: block;
     top: 50%;

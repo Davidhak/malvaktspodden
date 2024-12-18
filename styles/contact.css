@@ -90,10 +90,8 @@
   font-weight: 100;
 }
 
-@media screen and (max-width: 600px) {
-  .contact-section {
-    height: 50em;
-  }
+@media screen and (max-width: 992px) {
+
   .contact-container {
     top: 45%; 
     margin: 0;
@@ -116,6 +114,26 @@
     margin-top: 40px;
     cursor: pointer;
     transition: all .4s;
+  }
+}
+
+@media screen and (max-width: 992px) and (orientation: portrait) {
+  .contact-section {
+    height: 50em;
+  }
+  .contact-container {
+    top: 45%; 
+    margin: 0;
+  }
+}
+
+@media screen and (max-device-width: 992px) and (orientation: landscape) {
+  .contact-section {
+    height: 28em;
+  }
+  .contact-container {
+    top: 52%; 
+    margin: 0;
   }
 }
 

@@ -32,17 +32,11 @@
     margin: auto;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 992px) and (orientation: portrait) {
     .sponsor-section {
       height: 50em;
-    }
-    .sponsor-container {
       padding: 20px;
-      padding-bottom: 40px;
     }
-  }
-
-  @media screen and (max-width: 992px) {
     .sponsor-container {
       max-width: 80%;
       margin: 0;
@@ -50,6 +44,21 @@
     .sponsor-text {
       font-size: 20px;
       padding-top: 20px;
+    }
+  }
+
+  @media screen and (max-device-width: 992px) and (orientation: landscape) {
+    .sponsor-section {
+      height: 28em;
+      padding: 0;
+    }
+    .sponsor-container {
+      max-width: 60%;
+      margin: 0;
+    }
+    .sponsor-text {
+      font-size: 18px;
+      padding-top: 0;
     }
   }
 
