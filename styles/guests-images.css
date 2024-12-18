@@ -1,23 +1,23 @@
 #ep1 {
-  background-image: url('./resources/guests/jannemoller.jpg');
+  background-image: url('resources/guests/jannemoller.JPG');
   background-size: cover;
   background-position: center;
 }
 
 #ep2 {
-  background-image: url('./resources/guests/svantehildeman.jpg');
+  background-image: url('resources/guests/svantehildeman.JPG');
   background-size: cover;
   background-position: center;
 }
 
 #ep3 {
-  background-image: url('./resources/guests/laminsarr.png');
+  background-image: url('resources/guests/laminsarr.PNG');
   background-size: cover;
   background-position: center;
 }
 
 #ep4 {
-  background-image: url('./resources/guests/petermartinsson.png');
+  background-image: url('resources/guests/petermartinsson.PNG');
   background-size: cover;
   background-position: center;
 }
