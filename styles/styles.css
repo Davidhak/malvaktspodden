@@ -276,12 +276,12 @@ a {
 
 @media screen and (max-width: 600px) {
   .bg-div {
-    height: 58em;
+    height: 50em;
     background-size:cover;
   }
 
   .hero-content {
-    bottom: 40%;
+    bottom: 36%;
   }
 
   .title {
@@ -318,6 +318,7 @@ a {
     padding-bottom: 0;
     padding: 0;
     justify-content: flex-start;
+    background-color: rgb(59, 68, 53);
   }
   .right-nav {
    display: none;

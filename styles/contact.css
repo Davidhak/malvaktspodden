@@ -91,6 +91,13 @@
 }
 
 @media screen and (max-width: 600px) {
+  .contact-section {
+    height: 50em;
+  }
+  .contact-container {
+    top: 45%; 
+    margin: 0;
+  }
   .email-img {
     height: 40px;
   }
@@ -115,6 +122,7 @@
 @media screen and (max-width: 992px) {
   .contact-section {
     background-attachment: scroll;
+    background-image: linear-gradient(rgba(59, 68, 53, 0.863), rgba(78, 92, 69, 0.829)), url("https://davidhak.github.io/malvaktspodden/resources/bg/bg-contact.png");
   }
 }
 

@@ -79,18 +79,21 @@
 
   @media screen and (max-width: 730px){
     .podcast-section {
-      background-attachment: scroll; 
+      height: 50em;
+      background-attachment: scroll;
+      background-image: linear-gradient(rgba(49, 56, 44, 0.555), rgba(78, 92, 69, 0.493)), url("https://davidhak.github.io/malvaktspodden/resources/bg/bg-podcast.png");
     }
     .podcast-div {
       max-width: 300px;
       margin: auto;
-      padding: 10%;
-      padding-top: 20%;
+      top: 45%;
+      padding: 0;
+      padding-top: 0;
       left: 0;
     }
     .podcast,
     .spotify {
-      margin-top: 10px;
+      margin-top: 0;
     }
     .spotify {
       padding-left: 20%;
