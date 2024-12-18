@@ -308,7 +308,7 @@ a {
   }
 }
 
-@media only screen and (max-device-width: 990px) and (orientation: landscape) {
+@media screen and (max-width: 990px) and (orientation: landscape) {
   .bg-div {
     height: 28em;
   }
@@ -322,6 +322,9 @@ a {
   .hamburger-nav li {
     padding-top: 15px;
   }
+  .hero-img {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 641px) and (max-width: 992px) {
@@ -330,6 +333,12 @@ a {
   }
   .hero-img {
     width: 300px;
+  }
+}
+
+@media screen and (max-width: 992px) and (orientation: portrait) {
+  .hero-img {
+    display: inline;
   }
 }
 
@@ -352,9 +361,6 @@ a {
   }
   .title {
     padding-left: 15%;
-  }
-  .hero-img {
-    display: inline;
   }
 }
 
