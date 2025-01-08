@@ -172,12 +172,13 @@
 @media screen and (min-width: 1150px) and (max-width: 1350px){
   .podcast-div {
     left: 8%;
+    top: 55%;
   }  
   .bg-img {
     width: 330px;
-    left: 68%;
-    -ms-transform: translate(0, -68%);
-    transform: translate(0, -68%);
+    left: 65%;
+    -ms-transform: translate(0, -100%);
+    transform: translate(0, -100%);
   }
 }
 
@@ -194,11 +195,15 @@
 }
 
 @media screen and (min-width: 1450px) and (max-width: 1670px){
+  .podcast-div {
+    left: 8%;
+    top: 55%;
+  } 
   .bg-img {
-    -ms-transform: translate(0, -62%);
-    transform: translate(0, -62%);
-    width: 400px;
-    left: 60%;
+    -ms-transform: translate(0, -75%);
+    transform: translate(0, -75%);
+    width: 380px;
+    left: 65%;
   }
 }
 

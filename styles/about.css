@@ -120,6 +120,12 @@
   }
 }
 
+@media screen and (min-width: 993px) and (max-width: 1500px) {
+  .about-div {
+    top: 55%;
+  }
+}
+
 @media screen and (min-width: 2200px){
   .about-image {
     max-width: 500px;

@@ -111,7 +111,31 @@
   }
 }
 
-@media screen and (max-width: 1388px) {
+@media screen and (min-width: 993px) and (max-width: 1500px) {
+  .row {
+    padding-top: 10%;
+  }
+  .work-container {
+    max-width: 90%;
+  }
+  .outer-card {
+    width: 250px;
+    margin: 10px;
+  }
+  .card {
+    max-width: 320px;
+    height: 200px;
+  }
+  .card-episode, .card-name, .card-text {
+    font-size: 14px;
+    margin: 2px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1501px) {
   .row {
     justify-content: center;
   }
