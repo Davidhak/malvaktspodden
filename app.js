@@ -7,3 +7,7 @@ function showBurgerMenu() {
 function closeBurgerMenu() {
   burgerMenu.style.display = 'none';
 }
+
+function openPage() {
+  window.location = 'index.html';
+}
