@@ -16,7 +16,6 @@
 .row {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   flex-flow: wrap;
   max-width: 100%;
   padding-top: 12%;
