@@ -1,5 +1,7 @@
 const burgerMenu = document.querySelector('.hamburger-nav');
 let loadMoreBtn = document.querySelector('.load-more');
+let showLessBtn = document.querySelector('.show-less');
+
 let currentItem = 4;
 
 function showBurgerMenu() {
@@ -23,5 +25,14 @@ loadMoreBtn.onclick = () =>{
 
   if (currentItem >= cards.length) {
     loadMoreBtn.style.display = 'none';
+    showLessBtn.style.display = 'inline-block';
   }
+}
+
+showLessBtn.onclick = () =>{
+  location.reload();
+  showLessBtn.style.display = 'none';
+  loadMoreBtn.style.display = 'inline-block';
+  window.location = 'https://malvaktspodden.se/#guests-episodes'
+  return false;
 }
