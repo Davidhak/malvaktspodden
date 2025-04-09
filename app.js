@@ -1,6 +1,6 @@
 const burgerMenu = document.querySelector('.hamburger-nav');
 let loadMoreBtn = document.querySelector('.load-more');
-let currentItem = 3;
+let currentItem = 4;
 
 function showBurgerMenu() {
   burgerMenu.style.display = 'flex';
@@ -16,10 +16,10 @@ function openPage() {
 
 loadMoreBtn.onclick = () =>{
   let cards = [...document.querySelectorAll('.work-container .row .outer-card')];
-  for (var i = currentItem; i < currentItem + 3; i++) {
+  for (var i = currentItem; i < cards.length; i++) {
     cards[i].style.display = 'inline-block';
+    currentItem += 4;
   }
-  currentItem += 3;
 
   if (currentItem >= cards.length) {
     loadMoreBtn.style.display = 'none';
