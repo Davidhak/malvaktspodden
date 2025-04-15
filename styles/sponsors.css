@@ -1,71 +1,96 @@
-.sponsor-section {
+  .sponsor-section {
     background-color: black;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.696), rgba(0, 0, 0, 0.608)), url("https://davidhak.github.io/malvaktspodden/resources/bg/bg-start.png");
+    background-image: linear-gradient(rgba(22, 24, 21, 0.952), rgba(37, 41, 34, 0.863)), url("https://davidhak.github.io/malvaktspodden/resources/bg/bg-guests.png");
     background-size: cover;
     position: relative;
-    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
-  
-  .sponsor-container {
+
+  .Sponsor-header {
+    color: #fff;
+    font-size: 40px;
+    padding-top: 8%;
+  }
+
+  .sponsor-contact-container {
+    color: #fff;
     margin: 0;
     position: relative;
-    top: 50%;
+    top: 10%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    max-width:680px;
+    max-width:1000px;
     height: fit-content;
     padding: 40px;
     text-align: center;
-    background-color: #fff;
     border-radius: 20px;
   }
 
   .sponsor-text {
-    color: black;
+    color: #fff;
     font-family: 'Work Sans', sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     max-width: 90%;
-    font-size: 25px;
+    font-size: 18px;
     padding-bottom: 20px;
     margin: auto;
   }
 
+  .sponsorBtn {
+    display: inline-block;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin: 5%;
+    transform: translateZ(0) scale(1);
+    transition: transform .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
   @media screen and (max-width: 992px) and (orientation: portrait) {
+    .sponsor-contact-container {
+      padding: 20px;
+    }
+    .Sponsor-header {
+      margin-top: 20px;
+    }
     .sponsor-section {
       height: 40em;
       padding: 20px;
     }
     .sponsor-container {
-      max-width: 80%;
-      margin: 0;
+      padding-top: 20px;
     }
     .sponsor-text {
-      font-size: 20px;
-      padding-top: 20px;
+      font-size: 15px;
+      padding-top: 15%;
     }
   }
 
   @media screen and (max-device-width: 992px) and (orientation: landscape) {
+    .Sponsor-header {
+      margin-top: 20px;
+    }
     .sponsor-section {
       height: 28em;
       padding: 0;
     }
-    .sponsor-container {
-      max-width: 60%;
-      margin: 0;
+    .sponsor-contact-container {
+      padding: 0;
     }
     .sponsor-text {
-      font-size: 18px;
-      padding-top: 0;
+      font-size: 15px;
+      padding-top: 10%;
     }
+
   }
 
   @media screen and (min-width: 2200px){
-    .sponsor-container {
-     padding: 40px;
-    }
     .sponsor-text {
       font-size: 30px;
     }

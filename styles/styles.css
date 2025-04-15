@@ -225,18 +225,18 @@ a {
   background: transparent;
   backface-visibility: hidden;
   border-radius: .375rem;
-  border: #000000 solid;
+  border: #ffffff solid;
   border-width: .125rem;
   box-sizing: border-box;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   cursor: pointer;
   display: inline-block;
   font-family: 'Work Sans', sans-serif;
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 400;
   letter-spacing: -.01em;
   line-height: 1.3;
-  padding: .5rem 2rem;
+  padding: .3rem 1.5rem;
   margin-top: 20px;
   position: relative;
   text-align: left;
@@ -248,11 +248,11 @@ a {
   touch-action: manipulation;
 }
 
-.podcastBtn:not(:disabled):hover, .contactBtn:not(:disabled):hover {
+.podcastBtn:not(:disabled):hover, .contactBtn:not(:disabled):hover, .sponsorBtn:not(:disabled):hover {
   transform: scale(1.05);
 }
 
-.podcastBtn:not(:disabled):hover:active {
+.podcastBtn:not(:disabled):hover:active, .sponsorBtn:not(:disabled):hover:active {
   transform: scale(1.05) translateY(.125rem);
 }
 
