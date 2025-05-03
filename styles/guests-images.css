@@ -39,3 +39,9 @@
   background-size: cover;
   background-position: center;
 }
+
+#ep8 {
+  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/hedviglindahl.jpeg');
+  background-size: cover;
+  background-position:right 0% bottom 65%;
+}
