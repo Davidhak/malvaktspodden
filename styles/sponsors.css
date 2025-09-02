@@ -1,6 +1,6 @@
   .sponsor-section {
     background-color: black;
-    height: 90vh;
+    height: 100vh;
     background-image: linear-gradient(rgba(22, 24, 21, 0.952), rgba(37, 41, 34, 0.863)), url("https://davidhak.github.io/malvaktspodden/resources/bg/bg-guests.png");
     background-size: cover;
     position: relative;
