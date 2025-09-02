@@ -91,6 +91,9 @@
 }
 
 @media screen and (max-width: 992px) and (orientation: portrait) {
+  .about-section {
+    background-color: transparent;
+  }
   .about-div {
     display: block;
     top: 51%;
@@ -103,6 +106,7 @@
   }
 
   .about-text {
+    color: #fff;
     max-width: 320px;
     font-weight: 200;
     padding: 0;
