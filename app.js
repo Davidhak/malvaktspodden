@@ -3,6 +3,7 @@ let loadMoreBtn = document.querySelector('.load-more');
 let showLessBtn = document.querySelector('.show-less');
 let logoutBtn = document.querySelector('.logoutBtn');
 let x = 0;
+document.getElementById("links").children[6].style.display = "none"
 
 let currentItem = 4;
 
