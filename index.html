@@ -34,19 +34,20 @@
     </label>
 
     <div class="right-nav">
-      <ul>
+      <ul id="links">
         <li><a id="link1" href="#top">START</a></li>
         <li><a id="link2" href="#about">OM</a></li>
         <li><a id="link3" href="#podcast">PODCAST</a></li>
         <li><a id="link4" href="#guests-episodes">GÄSTER & AVSNITT</a></li>
         <li><a id="link5" href="#contact">KONTAKT</a></li>
         <li><a id="link6" href="#sponsors">SPONSORER</a></li>
+        <li><a class="logoutBtn" onclick="logout()">Logga ut</a></li>
       </ul>
     </div>
 
     <div class="hamburger-nav">
       <div class="effect"></div>
-      <ul>
+      <ul class="links">
         <label for="" class="menu-icons">
           <i class='bx bx-x' onclick="closeBurgerMenu()"></i>
         </label>
@@ -57,6 +58,7 @@
         <li><a id="link4" href="#guests-episodes" onclick="closeBurgerMenu()">GÄSTER & AVSNITT</a></li>
         <li><a id="link5" href="#contact" onclick="closeBurgerMenu()">KONTAKT</a></li>
         <li><a id="link6" href="#sponsors" onclick="closeBurgerMenu()">SPONSORER</a></li>
+        <li><a class="logoutBtn" href="" onclick="logout()">Logga ut</a></li>
       </ul>
     </div>
   </nav>

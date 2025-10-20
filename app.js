@@ -1,8 +1,20 @@
 const burgerMenu = document.querySelector('.hamburger-nav');
 let loadMoreBtn = document.querySelector('.load-more');
 let showLessBtn = document.querySelector('.show-less');
+let logoutBtn = document.querySelector('.logoutBtn');
+let x = 0;
 
 let currentItem = 4;
+
+window.onload = reloadPage();
+
+function reloadPage() {
+  if (x = 1) {
+    document.getElementById("links").children[6].style.display = "block"
+  } else {
+    document.getElementById("links").children[6].style.display = "none"
+  }
+}
 
 function showBurgerMenu() {
   burgerMenu.style.display = 'flex';
@@ -13,7 +25,13 @@ function closeBurgerMenu() {
 }
 
 function openPage() {
+  x = 1;
   window.location = 'index.html';
+}
+
+function logout() {
+  x = 0;
+  burgerMenu.style.display = 'none';
 }
 
 loadMoreBtn.onclick = () =>{
