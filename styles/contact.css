@@ -1,7 +1,7 @@
 .contact-section {
-  background-color: black;
+  background-color: transparent;
   box-sizing: border-box;
-  height: 90vh;
+  height: 100vh;
   position: relative;
   background-image: linear-gradient(rgba(59, 68, 53, 0.712), rgba(78, 92, 69, 0.521)), url("https://davidhak.github.io/malvaktspodden/resources/bg/bg-contact.png");
   background-attachment: fixed;
