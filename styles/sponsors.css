@@ -15,6 +15,38 @@
     padding-top: 8%;
   }
 
+  .sponsor-container {
+    width: min(30rem, 100%);
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
+    gap: 2rem;
+    margin-top: 5%;
+  }
+  .sponsor-card {
+    padding: 2.5rem;
+    background-image: linear-gradient(to bottom left, rgb(71, 77, 67), rgb(40, 46, 35));
+    border-radius: 2rem;
+    gap: 1rem;
+    cursor: pointer;
+    grid-template: 'title icon' 'content content' 'bar bar' / 1fr auto;
+    font-family: system-ui, sans-serif;
+    color: #444447;
+    box-shadow: 
+      inset -2px 2px rgba(133, 143, 127, 0.349),
+      -20px 20px 40px hsl(0 0 0 / .25);
+    }
+
+    .fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    cursor: pointer;
+    transform: translateZ(0) scale(1);
+    transition: transform .2s;
+    }
+
   .sponsor-contact-container {
     color: #fff;
     margin: 0;
@@ -70,6 +102,9 @@
       font-size: 15px;
       padding-top: 15%;
     }
+    .sponsor-container {
+      margin-top: 12%;
+   }
   }
 
   @media screen and (max-device-width: 992px) and (orientation: landscape) {
