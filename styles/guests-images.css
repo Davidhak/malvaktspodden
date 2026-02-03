@@ -64,8 +64,14 @@
   background-position:right 0% bottom 32%;
 }
 
-#ep12 {
+#ep16 {
   background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/melkerellborg.jpg');
   background-size: cover;
   background-position:right 0% bottom 65%;
+}
+
+#ep19 {
+  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/ep19.png');
+  background-size: cover;
+  background-position: center;
 }
