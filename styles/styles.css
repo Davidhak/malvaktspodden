@@ -277,14 +277,19 @@ a {
     background-position-y: 10%;
   }
   .hero-content {
-    bottom: 8%;
+    bottom: 18%;
   }
   .title {
     font-size: 18px;
   }
+  .spotifyBtn {
+    padding: 10px 25px;
+  }
   .spotifyBtn, .appleBtn {
-    padding: 10px 32px;
     margin-top: 10px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
   }
   .main-nav {
     padding: 0;
