@@ -177,6 +177,9 @@
   .work-container {
     max-width: 90%;
   }
+  .episode-guests-title {
+    margin-bottom: 0px;
+}
   .outer-card {
     width: 250px;
     margin: 10px;
@@ -202,7 +205,7 @@
 
 @media screen and (max-width: 992px) and (orientation: portrait) {
   .row {
-    padding-top: 20%;
+    padding-top: 10%;
   }
 }
 
