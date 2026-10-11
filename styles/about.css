@@ -1,19 +1,17 @@
 .about-section {
-  height: 100vh;
+  height: 80vh;
   background-color: transparent;
 }
 
 .about-div {
   display: flex;
   position: relative;
-  top: 50%;
+  top: 60%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   justify-content: center;
-  padding-top: 50px;
 }
-
 
 .about-image {
   background-image: url("https://davidhak.github.io/malvaktspodden/resources/bg/william.png");

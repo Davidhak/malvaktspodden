@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="rgb(42, 48, 37)">
+  <meta name="google-site-verification" content="Wc7hnq-3fhBujyAtxn1CmgB1Y8_HDCKempp1SObYFjw" />
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/about.css">
+  <link rel="stylesheet" href="styles/podcast.css">
+  <link rel="stylesheet" href="styles/guests.css">
+  <link rel="stylesheet" href="styles/guests-images.css">
+  <link rel="stylesheet" href="styles/contact.css">
+  <link rel="stylesheet" href="styles/sponsors.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="icon" href="https://malvaktspodden.se/resources/icons/favicon.ico">
+
+  <title>Målvaktspodden</title>
+</head>
+
+<body>
+  <nav class="main-nav">
+    <div class="left-nav">
+      <a href="#top">
+        <h1 class="title">Målvaktspodden</h1>
+      </a>
+    </div>
+
+    <label for="" class="menu-icons">
+      <i class='bx bx-menu' onclick="showBurgerMenu()"></i>
+    </label>
+
+    <div class="right-nav">
+      <ul>
+        <li><a id="link1" href="index.html">START</a></li>
+        <li><a id="link2" href="about.html">OM</a></li>
+        <li><a id="link4" href="index.html#guests-episodes">GÄSTER & AVSNITT</a></li>
+        <li><a id="link5" href="index.html#contact">KONTAKT</a></li>
+        <li><a id="link6" href="sponsors.html">SPONSORER</a></li>
+      </ul>
+    </div>
+
+    <div class="hamburger-nav">
+      <div class="effect"></div>
+      <ul>
+        <label for="" class="menu-icons">
+          <i class='bx bx-x' onclick="closeBurgerMenu()"></i>
+        </label>
+
+        <li><a id="link1" href="index.html" onclick="closeBurgerMenu()">START</a></li>
+        <li><a id="link2" href="about.html" onclick="closeBurgerMenu()">OM</a></li>
+        <li><a id="link4" href="index.html#guests-episodes" onclick="closeBurgerMenu()">GÄSTER & AVSNITT</a></li>
+        <li><a id="link5" href="index.html#contact" onclick="closeBurgerMenu()">KONTAKT</a></li>
+        <li><a id="link6" href="sponsors.html" onclick="closeBurgerMenu()">SPONSORER</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<section id="sponsors" class="sponsor-section">
+    <div class="Sponsor-header">Sponsorer</div>
+    <div class="sponsor-contact-container">
+    </div>
+    <div class="sponsor-container">
+      <div class="sponsor-card">
+        <a target="_blank" href="https://onegrip.se/?sca_ref=10068823.83U7gx1IMf7" class="fill-div"><img src="resources/icons/onegrip.png"
+          class="sponsorBtn" id="onegrip" alt="onegrip"><h3 class="sponsor-text">Köp nya målvaktshandskar och ny målvaktsutrustning här</h3></a>
+        
+    </div>
+</div>
+</section>
+    
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -19,20 +19,20 @@ function openPage() {
 loadMoreBtn.onclick = () =>{
   let cards = [...document.querySelectorAll('.work-container .row .outer-card')];
   for (var i = currentItem; i < cards.length; i++) {
-    cards[i].style.display = 'inline-block';
+    cards[i].style.display = 'block';
     currentItem += 4;
   }
 
   if (currentItem >= cards.length) {
     loadMoreBtn.style.display = 'none';
-    showLessBtn.style.display = 'inline-block';
+    showLessBtn.style.display = 'block';
   }
 }
 
 showLessBtn.onclick = () =>{
   location.reload();
   showLessBtn.style.display = 'none';
-  loadMoreBtn.style.display = 'inline-block';
+  loadMoreBtn.style.display = 'block';
   window.location = 'https://malvaktspodden.se/#guests-episodes'
   return false;
 }

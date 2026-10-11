@@ -19,7 +19,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Work Sans', sans-serif;
-  background-color: rgb(42, 48, 37);
+  background-color: #0E1110;
 }
 
 section {
@@ -27,13 +27,16 @@ section {
 }
 
 .bg-div {
-  background-color: black;
   box-sizing: border-box;
   height: 100vh;
   max-width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.696), rgba(0, 0, 0, 0.608)), url("https://davidhak.github.io/malvaktspodden/resources/bg/bg-start.png");
-  background-attachment: fixed;
-  background-size:cover;
+  background-image: linear-gradient(180deg, rgba(13, 18, 16, 0) 0%, hsla(160, 10%, 6%, 0) 60%, hsl(160, 10%, 6%) 100%), url('/resources/bg/bg_malvaktspodden.png');
+  background-position: top;
+  background-position-y: 20%;
+  background-size: 48%;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  /*background-image: linear-gradient(180deg, rgba(13, 18, 16, 0.486) 0%, hsla(160, 10%, 6%, 0.884) 60%, hsl(160, 10%, 6%) 100%), url("https://davidhak.github.io/malvaktspodden/resources/bg/bg-start.png");*/
 }
 
 .main-nav {
@@ -47,16 +50,15 @@ section {
   padding-bottom: 10px;
   width: 100%;
   z-index: 2;
-  justify-content: center;
-  background-color: rgba(0, 0, 0, .3);
+  /*justify-content: center;*/
 }
 
 .left-nav {
   color: #fff;
-  padding-right: 80px;
   text-align: center;
   align-items: center;
   text-decoration: none;
+  margin-left: 10%;
 }
 
 a {
@@ -73,7 +75,7 @@ a {
 }
 
 .right-nav {
-  padding-left: 150px;
+  padding-right: 5%;
 }
 
 .right-nav ul {
@@ -166,8 +168,8 @@ a {
   background-color: transparent;
   text-align: center;
   position: absolute;
-  max-width: 600px;
-  padding-top: 340px;
+  max-width: 700px;
+  padding-top: 400px;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -190,27 +192,27 @@ a {
 
 .info-h3 {
   font-family: 'Work Sans', sans-serif;
-  font-size: 21px;
+  font-size: 28px;
   font-weight: 100;
+  padding-top: 30%;
 }
 
-.podcastBtn {
+.spotifyBtn, .appleBtn {
   background: transparent;
   backface-visibility: hidden;
-  border-radius: .375rem;
-  border: #fff solid;
-  border-width: .125rem;
+  border-radius: 2rem;
   box-sizing: border-box;
   color: white;
   cursor: pointer;
   display: inline-block;
   font-family: 'Work Sans', sans-serif;
-  font-size: 1.125rem;
+  font-size: 14px;
   font-weight: 400;
   letter-spacing: -.01em;
-  line-height: 1.3;
-  padding: .5rem 2rem;
+  line-height: 1.8;
+  padding: 10px 32px;
   margin-top: 30px;
+  margin-right: 10px;
   position: relative;
   text-align: left;
   text-decoration: none;
@@ -219,6 +221,16 @@ a {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+}
+
+.spotifyBtn {
+  background-image: linear-gradient(135deg, hsl(25, 95%, 55%), hsl(35, 100%, 60%));
+  border: none;
+}
+
+.appleBtn {
+  border: #f4f4f1 solid;
+  border-width: 1px;
 }
 
 .contactBtn {
@@ -248,49 +260,31 @@ a {
   touch-action: manipulation;
 }
 
-.podcastBtn:not(:disabled):hover, .contactBtn:not(:disabled):hover, .sponsorBtn:not(:disabled):hover {
+.spotifyBtn:not(:disabled):hover, .contactBtn:not(:disabled):hover, .sponsorBtn:not(:disabled):hover {
   transform: scale(1.05);
 }
 
-.podcastBtn:not(:disabled):hover:active, .sponsorBtn:not(:disabled):hover:active {
-  transform: scale(1.05) translateY(.125rem);
-}
-
-.podcastBtn:focus {
-  outline: 0 solid transparent;
-}
-
-.podcastBtn:focus:before {
-  content: "";
-  left: calc(-1*.375rem);
-  pointer-events: none;
-  position: absolute;
-  top: calc(-1*.375rem);
-  transition: border-radius;
-  user-select: none;
-}
-
-.podcastBtn:focus:not(:focus-visible) {
-  outline: 0 solid transparent;
-}
-
-.podcastBtn:focus:not(:focus-visible):before {
-  border-width: 0;
-}
-
-.podcastBtn:not(:disabled):active {
-  transform: translateY(.125rem);
+.appleBtn:not(:disabled):hover {
+  border: #797979 solid;
+  border-width: 1px;
 }
 
 @media screen and (max-width: 640px) and (orientation: portrait) {
   .bg-div {
     height: 50em;
+    background-size: 120%;
+    max-width: 100%;
+    background-position-y: 10%;
   }
   .hero-content {
-    bottom: 20%;
+    bottom: 8%;
   }
   .title {
     font-size: 18px;
+  }
+  .spotifyBtn, .appleBtn {
+    padding: 10px 32px;
+    margin-top: 10px;
   }
   .main-nav {
     padding: 0;

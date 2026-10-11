@@ -1,17 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .guests-section {
-  background-color: black;
   box-sizing: border-box;
   min-height: 100vh;
-  background-image: linear-gradient(rgba(22, 24, 21, 0.952), rgba(37, 41, 34, 0.966)), url("https://davidhak.github.io/malvaktspodden/resources/bg/bg-guests.png");
+  /*background-image: linear-gradient(rgba(22, 24, 21, 0.952), rgba(37, 41, 34, 0.966)), url("https://davidhak.github.io/malvaktspodden/resources/bg/bg-guests.png");*/
   background-attachment: fixed;
   background-size: cover;
-  text-align: center;
-  padding-bottom: 50px;
+  /*text-align: center;*/
+  padding-bottom: 20px;
+  padding-top: 50px;
 }
 
+.episode-container-title {
+  font-size: 18px;
+  letter-spacing: 4px;
+  color: #f97a1f;
+  margin-left: 3px;
+}
+
+.episode-guests-title {
+  color: #fff;
+  font-size: 60px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.episode-container-title,.episode-guests-title, .card-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 .work-container {
   margin: auto;
-  max-width: 70%;
+  max-width: 50%;
 }
 
 .row {
@@ -19,15 +40,16 @@
   flex-direction: row;
   flex-flow: wrap;
   max-width: 100%;
-  padding-top: 12%;
 }
 
 .outer-card {
-  width: 280px;
   height: auto;
-  margin: 20px;
-  background-color: white;
-  border-radius: 20px;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #171c1a;
+  border-radius: 15px;
+  border: thin #797979 solid;
   cursor: pointer;
   transition: all .3s;
   display: none;
@@ -42,19 +64,22 @@
 }
 
 .outer-card:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .load-more, .show-less {
   background: transparent;
   backface-visibility: hidden;
-  border-radius: .375rem;
-  border: #fff solid;
+  max-width: 15%;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px #7e7e7e solid;
   border-width: .125rem;
   box-sizing: border-box;
   color: white;
   cursor: pointer;
-  display: inline-block;
+  display: block;
+  text-align: center;
   justify-content: center;
   font-family: 'Work Sans', sans-serif;
   font-size: 1.125rem;
@@ -119,24 +144,24 @@
   border-radius: 20px 20px 0 0;
 }
 
-.card-episode, .card-name, .card-text {
-  color: black;
+.card-title, .card-name, .card-text {
+  color: #fff;
   font-weight: 200;
   margin: 2px;
-  padding: 5px;
   padding-left: 20px;
   padding-right: 20px;
   font-size: 17px;
 }
 
-.card-episode {
-  color: rgba(45, 63, 45, 0.959);
-  font-weight: 100;
+.card-title {
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: 2px;
 }
 
 .card-name {
   font-weight: 500;
-  color: rgb(31, 43, 31);
+  color: #f97a1f;
 }
 
 .card-text {
@@ -160,7 +185,7 @@
     max-width: 320px;
     height: 200px;
   }
-  .card-episode, .card-name, .card-text {
+  .card-name, .card-text {
     font-size: 14px;
     margin: 2px;
     padding: 5px;
@@ -199,7 +224,7 @@
     max-width: 320px;
     height: 200px;
   }
-  .card-episode, .card-name, .card-text {
+  .card-name, .card-text {
     font-size: 14px;
     margin: 2px;
     padding: 5px;
@@ -215,7 +240,7 @@
 }
 
 @media screen and (min-width: 2200px){
-  .card-episode, .card-name, .card-text {
+  .card-name, .card-text {
     font-size: 21px;
   }
   .card-text {

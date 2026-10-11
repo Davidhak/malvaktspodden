@@ -1,18 +1,16 @@
 .podcast-section {
-    background-color: black;
     box-sizing: border-box;
-    height: 100vh;
-    background-image: linear-gradient(rgba(36, 39, 31, 0.404), rgba(40, 46, 36, 0.452)), url("https://davidhak.github.io/malvaktspodden/resources/bg/bg-podcast.png");
+    height: 70vh;
+    /*background-image: linear-gradient(rgba(36, 39, 31, 0.404), rgba(40, 46, 36, 0.452)), url("https://davidhak.github.io/malvaktspodden/resources/bg/bg-podcast.png");*/
     background-attachment: fixed;
     background-size: cover;
   }
   
 .podcast-div {
-    max-width: 600px;
-    justify-content: center;
+    max-width: 500px;
     position: relative;
     top: 50%;
-    left: 15%;
+    left: 24%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -20,10 +18,10 @@
 
   .bg-img {
     object-fit: cover;
-    width: 500px;
+    width: 400px;
     position: relative;
-    top: 0;
-    left: 53%;
+    top: -25%;
+    left: 56%;
     -ms-transform: translate(0, -59%);
     transform: translate(0, -59%);
     border-radius: 10px;
@@ -91,12 +89,12 @@
 
   @media screen and (max-width: 990px) and (orientation: portrait) {
     .podcast-section {
-      height: 50em;
+      height: 40em;
     }
     .podcast-div {
       max-width: 300px;
       margin: auto;
-      top: 45%;
+      top: 48%;
       padding: 0;
       padding-top: 0;
       left: 0;
@@ -149,7 +147,7 @@
 @media screen and (max-width: 990px) {
   .podcast-section {
     background-attachment: scroll;
-    background-image: linear-gradient(rgba(49, 56, 44, 0.555), rgba(78, 92, 69, 0.493)), url("https://davidhak.github.io/malvaktspodden/resources/bg/bg-podcast.png");
+    /*background-image: linear-gradient(rgba(49, 56, 44, 0.555), rgba(78, 92, 69, 0.493)), url("https://davidhak.github.io/malvaktspodden/resources/bg/bg-podcast.png");*/
   }
   .bg-img {
     display: none;
