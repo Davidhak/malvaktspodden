@@ -290,6 +290,7 @@ a {
     display: flex;
     margin: auto;
     margin-top: 20px;
+    font-size: 17px;
   }
   .main-nav {
     padding: 0;
