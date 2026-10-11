@@ -195,6 +195,9 @@
   .card-text {
     padding-bottom: 10px;
   }
+  .load-more, .show-less {
+  max-width: 40%;
+}
 }
 
 @media screen and (max-width: 992px) and (orientation: portrait) {
