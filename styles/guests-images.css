@@ -1,77 +1,101 @@
 #ep1 {
-  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/jannemoller.jpg');
+  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/ep1.jpg');
   background-size: cover;
   background-position: top;
 }
 
 #ep2 {
-  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/svantehildeman.jpg');
+  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/ep2.jpg');
   background-size: cover;
   background-position: top;
 }
 
 #ep3 {
-  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/laminsarr.png');
+  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/ep3.png');
   background-size: cover;
   background-position: top;
 }
 
 #ep4 {
-  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/petermartinsson.png');
+  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/ep4.png');
   background-size: cover;
   background-position: top;
 }
 
 #ep5 {
-  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/noelhansson.jpg');
+  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/ep5.jpg');
   background-size: cover;
   background-position: center;
 }
 
 #ep6 {
-  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/moaohman.jpg');
+  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/ep6.jpg');
   background-size: cover;
   background-position: center;
 }
 
 #ep7 {
-  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/matslarsson.jpg');
+  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/ep7.jpg');
   background-size: cover;
   background-position: center;
 }
 
 #ep8 {
-  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/hedviglindahl.jpeg');
+  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/ep8.jpeg');
   background-size: cover;
   background-position:right 0% bottom 65%;
 }
 
 #ep9 {
-  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/hedvig2.jpg');
+  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/ep9.jpg');
   background-size: cover;
   background-position:right 0% bottom 65%;
 }
 
 #ep10 {
-  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/jimmyberestål.png');
+  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/ep10.png');
   background-size: cover;
   background-position:right 0% bottom 65%;
 }
 
 #ep11 {
-  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/noeltornqvist.png');
+  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/ep11.png');
   background-size: cover;
   background-position:right 0% bottom 32%;
 }
 
-#ep16 {
-  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/melkerellborg.jpg');
+#ep12 {
+  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/ep12.jpg');
   background-size: cover;
   background-position:right 0% bottom 65%;
 }
 
-#ep19 {
-  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/ep19.png');
+#ep13 {
+  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/ep13.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#ep14 {
+  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/ep14.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#ep15 {
+  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/ep15.png');
+  background-size: cover;
+  background-position: top;
+}
+
+#ep16 {
+  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/ep16.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#ep17 {
+  background-image: url('https://davidhak.github.io/malvaktspodden/resources/guests/ep17.jpg');
   background-size: cover;
   background-position: center;
 }

@@ -296,6 +296,8 @@ a {
   .info-h3 {
     font-size: 18px;
     padding: 20px;
+    padding-bottom: 20%;
+    
   }
   .creator {
     font-size: 8px;
